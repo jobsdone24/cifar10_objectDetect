@@ -104,6 +104,8 @@ class GalleryActivity : AppCompatActivity() {
 
 
         paint.textSize = h/20f
+
+
         paint.strokeWidth = h/110f
         scores.forEachIndexed { index, fl ->
             if(fl > 0.65 && classes.get(index).toInt() in indexesToCheck){
